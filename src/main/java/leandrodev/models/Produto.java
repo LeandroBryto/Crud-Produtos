@@ -30,7 +30,7 @@ public class Produto {
 
     public Produto() {}
 
-    // 🔹 Construtor com parâmetros
+
     public Produto(String nome, String descricao, Double preco, Integer quantidadeEmEstoque) {
         this.nome = nome;
         this.descricao = descricao;
