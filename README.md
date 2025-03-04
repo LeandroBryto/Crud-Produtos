@@ -51,7 +51,7 @@ O projeto inclui testes unitários e de integração para garantir a qualidade d
 - **Dependency Inversion Principle (DIP)**: Dependências são injetadas via **Spring** (ex: **@Autowired**), permitindo baixo acoplamento e facilidade de testes.
 
 ### ⚙️ **Boas Práticas de Clean Code:**
-- **Nomes Significativos**: Classes, métodos e variáveis têm nomes descritivos, como **ProdutoService**, **listarTodos**, **buscarPorId**, etc.
+- **Nomes Significativos**: Classes, métodos e variáveis têm nomes descritivos, como **ProdutoService**, **listarTodos**, **buscarPorId**.
 - **Funções Pequenas e Específicas**: Cada método tem uma única responsabilidade e é curto, facilitando a leitura e o entendimento.
 - **Comentários Úteis**: Comentários são usados apenas quando necessário, para explicar decisões complexas ou regras de negócio.
 - **Tratamento de Erros**: Respostas HTTP adequadas são retornadas em caso de erros, como 404 **Not Found** para produtos inexistentes.
